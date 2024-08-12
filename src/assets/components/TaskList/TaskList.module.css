@@ -1,0 +1,36 @@
+.li {
+  width: 476.92px;
+  height: 40px;
+  border: 1px solid #3e1671;
+  border-radius: 10px;
+  list-style-type: none;
+  background-color: white;
+  margin-top: 30px;
+  margin-left: 34px;
+  padding-left: 10px;
+}
+.task_done {
+  text-decoration: line-through;
+  width: 476.92px;
+  height: 40px;
+  border: 1px solid #3e1671;
+  border-radius: 10px;
+  list-style-type: none;
+  background-color: white;
+  margin-top: 30px;
+  margin-left: 34px;
+  padding-left: 10px;
+}
+
+.taskButton {
+  border: none;
+  background-color: white;
+}
+
+.buttons {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 10px;
+  margin: -6px 20px 15px 0px;
+}
