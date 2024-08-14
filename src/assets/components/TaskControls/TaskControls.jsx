@@ -3,11 +3,13 @@ import s from "./TaskControls.module.css";
 const TaskControls = ({ task, setTasks }) => {
   function deleteHandler() {
     setTasks([]);
+    localStorage.clear("task");
   }
 
   function deleteDone() {
     const taskDone = task.filter((e) => !e.done);
     setTasks(taskDone);
+    localStorage.setItem("task", JSON.stringify(taskDone));
   }
 
   return (
